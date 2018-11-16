@@ -1,0 +1,5 @@
+D:\Project data\YiGe\YiGe\YiGeEntiry\bin\Debug\YiGeEntiry.dll
+D:\Project data\YiGe\YiGe\YiGeEntiry\bin\Debug\YiGeEntiry.pdb
+D:\Project data\YiGe\YiGe\YiGeEntiry\obj\Debug\YiGeEntiry.dll
+D:\Project data\YiGe\YiGe\YiGeEntiry\obj\Debug\YiGeEntiry.pdb
+D:\Project data\YiGe\YiGe\YiGeEntiry\obj\Debug\YiGeEntiry.csprojResolveAssemblyReference.cache
