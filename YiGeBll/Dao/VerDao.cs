@@ -161,7 +161,7 @@ namespace YiGeBll.Dao
                 strSql.AppendFormat( "SELECT TC001+'-'+TC002 TC FROM PURTC WHERE TC003='{0}' AND TC011='{1}' ORDER BY TC001,TC002" ,tc003 ,tc011 );
             else if ( string.IsNullOrEmpty( tc014 ) && string.IsNullOrEmpty( tc011 ) )
                 strSql.AppendFormat( "SELECT TC001+'-'+TC002 TC FROM PURTC WHERE TC003='{0}' ORDER BY TC001,TC002" ,tc003 );
-
+            
             return SqlHelper.ExecuteDataTable( strSql.ToString( ) );
         }
         public DataTable GetDataTableOnlysTwo ( string tc003 ,string tc011,string tc014)

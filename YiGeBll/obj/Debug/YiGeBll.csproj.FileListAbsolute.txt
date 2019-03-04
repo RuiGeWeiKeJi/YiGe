@@ -5,3 +5,10 @@ D:\Project data\YiGe\YiGe\YiGeBll\obj\Debug\YiGeBll.pdb
 D:\Project data\YiGe\YiGe\YiGeBll\obj\Debug\YiGeBll.csprojResolveAssemblyReference.cache
 D:\Project data\YiGe\YiGe\YiGeBll\bin\Debug\YiGeEntiry.dll
 D:\Project data\YiGe\YiGe\YiGeBll\bin\Debug\YiGeEntiry.pdb
+D:\ProjectData\YiGe\YiGe\YiGeBll\bin\Debug\YiGeBll.dll
+D:\ProjectData\YiGe\YiGe\YiGeBll\bin\Debug\YiGeBll.pdb
+D:\ProjectData\YiGe\YiGe\YiGeBll\bin\Debug\YiGeEntiry.dll
+D:\ProjectData\YiGe\YiGe\YiGeBll\bin\Debug\YiGeEntiry.pdb
+D:\ProjectData\YiGe\YiGe\YiGeBll\obj\Debug\YiGeBll.csprojResolveAssemblyReference.cache
+D:\ProjectData\YiGe\YiGe\YiGeBll\obj\Debug\YiGeBll.dll
+D:\ProjectData\YiGe\YiGe\YiGeBll\obj\Debug\YiGeBll.pdb

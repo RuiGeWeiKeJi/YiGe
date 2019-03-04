@@ -67,6 +67,7 @@
             this.label8 = new System.Windows.Forms.Label();
             this.tabControl1 = new System.Windows.Forms.TabControl();
             this.tabPageOne = new System.Windows.Forms.TabPage();
+            this.button35 = new System.Windows.Forms.Button();
             this.tabPageTwo = new System.Windows.Forms.TabPage();
             this.button32 = new System.Windows.Forms.Button();
             this.textBox5 = new System.Windows.Forms.TextBox();
@@ -85,7 +86,7 @@
             this.button30 = new System.Windows.Forms.Button();
             this.textBox1 = new System.Windows.Forms.TextBox();
             this.label9 = new System.Windows.Forms.Label();
-            this.button35 = new System.Windows.Forms.Button();
+            this.button36 = new System.Windows.Forms.Button();
             this.tabControl1.SuspendLayout();
             this.tabPageOne.SuspendLayout();
             this.tabPageTwo.SuspendLayout();
@@ -111,10 +112,10 @@
             this.label1.ForeColor = System.Drawing.Color.Blue;
             this.label1.Location = new System.Drawing.Point(16, 109);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(773, 16);
+            this.label1.Size = new System.Drawing.Size(818, 16);
             this.label1.TabIndex = 4;
             this.label1.Text = "---------------------------------------------------------------------------------" +
-    "----";
+    "---------";
             // 
             // button7
             // 
@@ -160,10 +161,10 @@
             this.label5.ForeColor = System.Drawing.Color.Blue;
             this.label5.Location = new System.Drawing.Point(19, 62);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(773, 16);
+            this.label5.Size = new System.Drawing.Size(818, 16);
             this.label5.TabIndex = 20;
             this.label5.Text = "---------------------------------------------------------------------------------" +
-    "----";
+    "---------";
             // 
             // button5
             // 
@@ -185,10 +186,10 @@
             this.label6.ForeColor = System.Drawing.Color.Blue;
             this.label6.Location = new System.Drawing.Point(16, 15);
             this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(773, 16);
+            this.label6.Size = new System.Drawing.Size(818, 16);
             this.label6.TabIndex = 22;
             this.label6.Text = "---------------------------------------------------------------------------------" +
-    "----";
+    "---------";
             // 
             // button6
             // 
@@ -330,10 +331,10 @@
             this.label7.ForeColor = System.Drawing.Color.Blue;
             this.label7.Location = new System.Drawing.Point(16, 156);
             this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(773, 16);
+            this.label7.Size = new System.Drawing.Size(818, 16);
             this.label7.TabIndex = 34;
             this.label7.Text = "---------------------------------------------------------------------------------" +
-    "----";
+    "---------";
             // 
             // button17
             // 
@@ -379,10 +380,10 @@
             this.label2.ForeColor = System.Drawing.Color.Blue;
             this.label2.Location = new System.Drawing.Point(16, 203);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(773, 16);
+            this.label2.Size = new System.Drawing.Size(818, 16);
             this.label2.TabIndex = 38;
             this.label2.Text = "---------------------------------------------------------------------------------" +
-    "----";
+    "---------";
             // 
             // button20
             // 
@@ -428,10 +429,10 @@
             this.label3.ForeColor = System.Drawing.Color.Blue;
             this.label3.Location = new System.Drawing.Point(16, 250);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(773, 16);
+            this.label3.Size = new System.Drawing.Size(818, 16);
             this.label3.TabIndex = 42;
             this.label3.Text = "---------------------------------------------------------------------------------" +
-    "----";
+    "---------";
             // 
             // button23
             // 
@@ -501,10 +502,10 @@
             this.label4.ForeColor = System.Drawing.Color.Blue;
             this.label4.Location = new System.Drawing.Point(16, 297);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(773, 16);
+            this.label4.Size = new System.Drawing.Size(818, 16);
             this.label4.TabIndex = 48;
             this.label4.Text = "---------------------------------------------------------------------------------" +
-    "----";
+    "---------";
             // 
             // button28
             // 
@@ -538,10 +539,10 @@
             this.label8.ForeColor = System.Drawing.Color.Blue;
             this.label8.Location = new System.Drawing.Point(16, 344);
             this.label8.Name = "label8";
-            this.label8.Size = new System.Drawing.Size(773, 16);
+            this.label8.Size = new System.Drawing.Size(818, 16);
             this.label8.TabIndex = 51;
             this.label8.Text = "---------------------------------------------------------------------------------" +
-    "----";
+    "---------";
             // 
             // tabControl1
             // 
@@ -552,11 +553,12 @@
             this.tabControl1.Location = new System.Drawing.Point(0, 0);
             this.tabControl1.Name = "tabControl1";
             this.tabControl1.SelectedIndex = 0;
-            this.tabControl1.Size = new System.Drawing.Size(803, 390);
+            this.tabControl1.Size = new System.Drawing.Size(848, 390);
             this.tabControl1.TabIndex = 52;
             // 
             // tabPageOne
             // 
+            this.tabPageOne.Controls.Add(this.button36);
             this.tabPageOne.Controls.Add(this.button35);
             this.tabPageOne.Controls.Add(this.label6);
             this.tabPageOne.Controls.Add(this.label8);
@@ -598,10 +600,22 @@
             this.tabPageOne.Location = new System.Drawing.Point(4, 24);
             this.tabPageOne.Name = "tabPageOne";
             this.tabPageOne.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPageOne.Size = new System.Drawing.Size(795, 362);
+            this.tabPageOne.Size = new System.Drawing.Size(840, 362);
             this.tabPageOne.TabIndex = 0;
             this.tabPageOne.Text = "报表";
             this.tabPageOne.UseVisualStyleBackColor = true;
+            // 
+            // button35
+            // 
+            this.button35.BackColor = System.Drawing.Color.DarkSeaGreen;
+            this.button35.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.button35.Location = new System.Drawing.Point(300, 316);
+            this.button35.Name = "button35";
+            this.button35.Size = new System.Drawing.Size(85, 25);
+            this.button35.TabIndex = 52;
+            this.button35.Text = "合格证";
+            this.button35.UseVisualStyleBackColor = false;
+            this.button35.Click += new System.EventHandler(this.button35_Click);
             // 
             // tabPageTwo
             // 
@@ -787,23 +801,23 @@
             this.label9.TabIndex = 0;
             this.label9.Text = "解锁";
             // 
-            // button35
+            // button36
             // 
-            this.button35.BackColor = System.Drawing.Color.DarkSeaGreen;
-            this.button35.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.button35.Location = new System.Drawing.Point(300, 316);
-            this.button35.Name = "button35";
-            this.button35.Size = new System.Drawing.Size(85, 25);
-            this.button35.TabIndex = 52;
-            this.button35.Text = "合格证";
-            this.button35.UseVisualStyleBackColor = false;
-            this.button35.Click += new System.EventHandler(this.button35_Click);
+            this.button36.BackColor = System.Drawing.Color.DarkSeaGreen;
+            this.button36.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.button36.Location = new System.Drawing.Point(690, 128);
+            this.button36.Name = "button36";
+            this.button36.Size = new System.Drawing.Size(129, 25);
+            this.button36.TabIndex = 53;
+            this.button36.Text = "上海依格采购";
+            this.button36.UseVisualStyleBackColor = false;
+            this.button36.Click += new System.EventHandler(this.button36_Click);
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(803, 390);
+            this.ClientSize = new System.Drawing.Size(848, 390);
             this.Controls.Add(this.tabControl1);
             this.Font = new System.Drawing.Font("宋体", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedDialog;
@@ -880,6 +894,7 @@
         private System.Windows.Forms.TextBox textBox5;
         private System.Windows.Forms.Button button32;
         private System . Windows . Forms . Button button35;
+        private System . Windows . Forms . Button button36;
     }
 }
 

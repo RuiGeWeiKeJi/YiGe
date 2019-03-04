@@ -37,3 +37,8 @@ D:\Project data\YiGe\YiGe\Setup\Utility.pdb
 D:\Project data\YiGe\YiGe\Utility\obj\Debug\Utility.csprojResolveAssemblyReference.cache
 D:\Project data\YiGe\YiGe\Utility\obj\Debug\Utility.dll
 D:\Project data\YiGe\YiGe\Utility\obj\Debug\Utility.pdb
+D:\ProjectData\YiGe\YiGe\Setup\Utility.dll
+D:\ProjectData\YiGe\YiGe\Setup\Utility.pdb
+D:\ProjectData\YiGe\YiGe\Utility\obj\Debug\Utility.csprojResolveAssemblyReference.cache
+D:\ProjectData\YiGe\YiGe\Utility\obj\Debug\Utility.dll
+D:\ProjectData\YiGe\YiGe\Utility\obj\Debug\Utility.pdb

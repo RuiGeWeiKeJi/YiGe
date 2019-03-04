@@ -231,6 +231,11 @@ namespace YiGe
         {
             actionOfPrint( "16" );
         }
+        //上海依格采购
+        private void button36_Click ( object sender ,EventArgs e )
+        {
+            actionOfPrintOne ( "31" );
+        }
         //退货单
         private void button19_Click ( object sender ,EventArgs e )
         {

@@ -165,6 +165,11 @@ namespace YiGeQuery
                 report.Load( file );
                 createPurchaseOrder( "采购变更单" ,strWhereTre );
                 break;
+                case "31":
+                file = Application . StartupPath + "\\上海依格采购.frx";
+                report . Load ( file );
+                createPurchaseOrder ( "采购单" ,strWhereOne );
+                break;
             }
             if ( signOf == "1" )
                 return;
@@ -221,7 +226,7 @@ namespace YiGeQuery
                     _model.TC004 = _model.TE007 = _model.TE005 = lookUpEdit2.Text;
 
                     tableOnly = null;
-                    if ( signOfPtint == "10" || signOfPtint == "11" || signOfPtint == "12" || signOfPtint == "13" )
+                    if ( signOfPtint == "10" || signOfPtint == "11" || signOfPtint == "12" || signOfPtint == "13" || signOfPtint == "31" )
                     {
                         tableOnly = _bll.GetDataTableOnlyTwo( _model.TC003 ,_model.TC004 );
                         lookUpEdit1.Properties.DataSource = tableOnly;
@@ -276,7 +281,7 @@ namespace YiGeQuery
                         _model.TC003 = _model.TE004 = dateTimePicker1.Value.ToString( "yyyyMMdd" );
 
                     tableOnlys = null;
-                    if ( signOfPtint == "10" || signOfPtint == "11" || signOfPtint == "12" || signOfPtint == "13" )
+                    if ( signOfPtint == "10" || signOfPtint == "11" || signOfPtint == "12" || signOfPtint == "13" || signOfPtint == "31" )
                     {
                         tableOnlys = _bll.GetDataTableOnlyTwos( _model.TC001 ,_model.TC002 ,_model.TC003 );
                         lookUpEdit2.Properties.DataSource = tableOnlys;
@@ -346,7 +351,7 @@ namespace YiGeQuery
             if ( lookUpEdit3.EditValue != null )
                 _model.TC014 = _model.TE029 = _model.TE017 = lookUpEdit3.Text;
 
-            if ( signOfPtint == "10" || signOfPtint == "11" || signOfPtint == "12" || signOfPtint == "13" )
+            if ( signOfPtint == "10" || signOfPtint == "11" || signOfPtint == "12" || signOfPtint == "13" || signOfPtint == "31" )
             {
                 tableOnly = _bll.GetDataTableOnlyTwo( _model.TC003 ,_model.MV001 ,_model.TC014 );
                 lookUpEdit1.Properties.DataSource = tableOnly;
