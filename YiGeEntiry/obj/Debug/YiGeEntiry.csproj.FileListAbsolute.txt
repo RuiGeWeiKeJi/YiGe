@@ -3,3 +3,15 @@ D:\Project data\YiGe\YiGe\YiGeEntiry\bin\Debug\YiGeEntiry.pdb
 D:\Project data\YiGe\YiGe\YiGeEntiry\obj\Debug\YiGeEntiry.dll
 D:\Project data\YiGe\YiGe\YiGeEntiry\obj\Debug\YiGeEntiry.pdb
 D:\Project data\YiGe\YiGe\YiGeEntiry\obj\Debug\YiGeEntiry.csprojResolveAssemblyReference.cache
+D:\ProjectData\YiGe\YiGe\YiGeEntiry\bin\Debug\YiGeEntiry.dll
+D:\ProjectData\YiGe\YiGe\YiGeEntiry\bin\Debug\YiGeEntiry.pdb
+D:\ProjectData\YiGe\YiGe\YiGeEntiry\obj\Debug\YiGeEntiry.csprojAssemblyReference.cache
+D:\ProjectData\YiGe\YiGe\YiGeEntiry\obj\Debug\YiGeEntiry.csproj.CoreCompileInputs.cache
+D:\ProjectData\YiGe\YiGe\YiGeEntiry\obj\Debug\YiGeEntiry.dll
+D:\ProjectData\YiGe\YiGe\YiGeEntiry\obj\Debug\YiGeEntiry.pdb
+F:\ProjectData\YiGe\YiGe\YiGeEntiry\bin\Debug\YiGeEntiry.dll
+F:\ProjectData\YiGe\YiGe\YiGeEntiry\bin\Debug\YiGeEntiry.pdb
+F:\ProjectData\YiGe\YiGe\YiGeEntiry\obj\Debug\YiGeEntiry.csprojAssemblyReference.cache
+F:\ProjectData\YiGe\YiGe\YiGeEntiry\obj\Debug\YiGeEntiry.csproj.CoreCompileInputs.cache
+F:\ProjectData\YiGe\YiGe\YiGeEntiry\obj\Debug\YiGeEntiry.dll
+F:\ProjectData\YiGe\YiGe\YiGeEntiry\obj\Debug\YiGeEntiry.pdb

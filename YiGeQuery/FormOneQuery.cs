@@ -136,40 +136,45 @@ namespace YiGeQuery
             switch ( signOfPtint )
             {
                 case "10":
-                file = Application.StartupPath + "\\嘉兴依格采购.frx";
-                report.Load( file );
-                createPurchaseOrder( "采购单" ,strWhereOne );
-                break;
+                    file = Application . StartupPath + "\\嘉兴依格采购.frx";
+                    report . Load ( file );
+                    createPurchaseOrder ( "采购单" , strWhereOne );
+                    break;
                 case "11":
-                file = Application.StartupPath + "\\浩律科贸采购.frx";
-                report.Load( file );
-                createPurchaseOrder( "采购单" ,strWhereOne );
-                break;
+                    file = Application . StartupPath + "\\浩律科贸采购.frx";
+                    report . Load ( file );
+                    createPurchaseOrder ( "采购单" , strWhereOne );
+                    break;
                 case "12":
-                file = Application.StartupPath + "\\鲁澜工贸采购.frx";
-                report.Load( file );
-                createPurchaseOrder( "采购单" ,strWhereOne );
-                break;
+                    file = Application . StartupPath + "\\鲁澜工贸采购.frx";
+                    report . Load ( file );
+                    createPurchaseOrder ( "采购单" , strWhereOne );
+                    break;
                 case "13":
-                file = Application.StartupPath + "\\国外采购.frx";
-                report.Load( file );
-                createPurchaseOrder( "国外采购单" ,strWhereOne );
-                break;
+                    file = Application . StartupPath + "\\国外采购.frx";
+                    report . Load ( file );
+                    createPurchaseOrder ( "国外采购单" , strWhereOne );
+                    break;
                 case "14":
-                file = Application.StartupPath + "\\订单变更单.frx";
-                report.Load( file );
-                createPurchaseOrder( "订单变更单" ,strWhereTwo );
-                break;
+                    file = Application . StartupPath + "\\订单变更单.frx";
+                    report . Load ( file );
+                    createPurchaseOrder ( "订单变更单" , strWhereTwo );
+                    break;
                 case "15":
-                file = Application.StartupPath + "\\采购变更单.frx";
-                report.Load( file );
-                createPurchaseOrder( "采购变更单" ,strWhereTre );
-                break;
+                    file = Application . StartupPath + "\\采购变更单.frx";
+                    report . Load ( file );
+                    createPurchaseOrder ( "采购变更单" , strWhereTre );
+                    break;
                 case "31":
-                file = Application . StartupPath + "\\上海依格采购.frx";
-                report . Load ( file );
-                createPurchaseOrder ( "采购单" ,strWhereOne );
-                break;
+                    file = Application . StartupPath + "\\上海依格采购.frx";
+                    report . Load ( file );
+                    createPurchaseOrder ( "采购单" , strWhereOne );
+                    break;
+                case "32":
+                    file = Application . StartupPath + "\\嘉兴芬格采购.frx";
+                    report . Load ( file );
+                    createPurchaseOrder ( "采购单" , strWhereOne );
+                    break;
             }
             if ( signOf == "1" )
                 return;
@@ -226,7 +231,7 @@ namespace YiGeQuery
                     _model.TC004 = _model.TE007 = _model.TE005 = lookUpEdit2.Text;
 
                     tableOnly = null;
-                    if ( signOfPtint == "10" || signOfPtint == "11" || signOfPtint == "12" || signOfPtint == "13" || signOfPtint == "31" )
+                    if ( signOfPtint == "10" || signOfPtint == "11" || signOfPtint == "12" || signOfPtint == "13" || signOfPtint == "31" || signOfPtint == "32" )
                     {
                         tableOnly = _bll.GetDataTableOnlyTwo( _model.TC003 ,_model.TC004 );
                         lookUpEdit1.Properties.DataSource = tableOnly;
@@ -281,7 +286,7 @@ namespace YiGeQuery
                         _model.TC003 = _model.TE004 = dateTimePicker1.Value.ToString( "yyyyMMdd" );
 
                     tableOnlys = null;
-                    if ( signOfPtint == "10" || signOfPtint == "11" || signOfPtint == "12" || signOfPtint == "13" || signOfPtint == "31" )
+                    if ( signOfPtint == "10" || signOfPtint == "11" || signOfPtint == "12" || signOfPtint == "13" || signOfPtint == "31" || signOfPtint == "32" )
                     {
                         tableOnlys = _bll.GetDataTableOnlyTwos( _model.TC001 ,_model.TC002 ,_model.TC003 );
                         lookUpEdit2.Properties.DataSource = tableOnlys;
@@ -351,7 +356,7 @@ namespace YiGeQuery
             if ( lookUpEdit3.EditValue != null )
                 _model.TC014 = _model.TE029 = _model.TE017 = lookUpEdit3.Text;
 
-            if ( signOfPtint == "10" || signOfPtint == "11" || signOfPtint == "12" || signOfPtint == "13" || signOfPtint == "31" )
+            if ( signOfPtint == "10" || signOfPtint == "11" || signOfPtint == "12" || signOfPtint == "13" || signOfPtint == "31" || signOfPtint == "32" )
             {
                 tableOnly = _bll.GetDataTableOnlyTwo( _model.TC003 ,_model.MV001 ,_model.TC014 );
                 lookUpEdit1.Properties.DataSource = tableOnly;

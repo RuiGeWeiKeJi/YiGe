@@ -749,13 +749,23 @@ namespace YiGeBll.Dao
         {
             StringBuilder strSql = new StringBuilder( );
             DataTable da = GetDataTablePrints( signOfName );
-            if ( da != null && da.Rows.Count > 0 )
+            if ( da != null && da . Rows . Count > 0 )
             {
-                strSql.Append( "" + da.Rows[0]["DJ003"].ToString( ) + "" );
-                if ( !string.IsNullOrEmpty( da.Rows[0]["DJ004"].ToString( ) ) )
-                    strSql.Append( " WHERE " + strWhere + " AND " + da.Rows[0]["DJ004"].ToString( ).Replace( "WHERE" ," " ) );
+                strSql . Append ( "" + da . Rows [ 0 ] [ "DJ003" ] . ToString ( ) + "" );
+                if ( "采购单" . Equals ( signOfName ) )
+                {
+                    if ( !string . IsNullOrEmpty ( da . Rows [ 0 ] [ "DJ004" ] . ToString ( ) ) )
+                        strSql . Append ( " " + strWhere + " AND " + da . Rows [ 0 ] [ "DJ004" ] . ToString ( ) . Replace ( "1=1" , strWhere ) );
+                    else
+                        strSql . Append ( " WHERE " + strWhere );
+                }
                 else
-                    strSql.Append( " WHERE " + strWhere );
+                {
+                    if ( !string . IsNullOrEmpty ( da . Rows [ 0 ] [ "DJ004" ] . ToString ( ) ) )
+                        strSql . Append ( " WHERE " + strWhere + " AND " + da . Rows [ 0 ] [ "DJ004" ] . ToString ( ) . Replace ( "WHERE" , " " ) );
+                    else
+                        strSql . Append ( " WHERE " + strWhere );
+                }
             }
             try
             {

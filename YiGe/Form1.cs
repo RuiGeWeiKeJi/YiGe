@@ -306,6 +306,11 @@ namespace YiGe
         {
             actionOfPrint ( "30" );
         }
+        //嘉兴芬格采购
+        private void Button37_Click ( object sender , EventArgs e )
+        {
+            actionOfPrintOne ( "32" );
+        }
         #endregion
 
         #region
@@ -394,6 +399,9 @@ namespace YiGe
                 return;
             }
         }
+
+
+
         //Save
         private void button31_Click ( object sender ,EventArgs e )
         {
@@ -452,5 +460,6 @@ namespace YiGe
                 MessageBox.Show( "数据源保存失败,请重试" );
         }
         #endregion
+
     }
 }
